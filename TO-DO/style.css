@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+  margin:0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+  background-color:#FFE6F7;
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.title{
+  position: relative;
+  height: 10vh;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 1000;
+  letter-spacing: 10px;
+  margin: 30px 10px;
+  color: #937DC2 ;
+}
+
+.para{
+text-align: center;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 35px;
+color: #937DC2;
+}
+.to-do{
+  top: 10px;
+  width: 450px;
+  padding:17px;
+  height:55px;
+  box-shadow:0px 10px 30px;
+  border-radius:10px;
+  background-color:#937DC2;
+  position: relative;
+}
+
+.list{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 15px;
+
+}
+
+.elist{
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #937DC2;
+  font-size: 17px;
+  box-shadow: 0px 10px 30px;
+}
+
+.add{
+  font-weight: 700;
+  border-radius: 5px;
+  border: 1px solid #937DC2;
+  font-size:17px;
+  cursor: pointer;
+  box-shadow: 0px 10px 30px;
+  opacity: 0.5 ;
+  pointer-events: none;
+}
+
+.add.active{
+  opacity: 1;
+  pointer-events: all;
+}
+.tasks{
+  width: 100%;
+  margin-top: 30px;
+  height: 0em;
+  position: relative;
+}
+
+.edit{
+  font-size: 1.4rem;
+  margin: 0 0.75rem;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.remove{
+  font-size: 1.4rem;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+
+}
+.paragraph-styling{
+  margin: 0;
+  cursor: pointer;
+  font-size: 27px;
+  color : #937DC2;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
+}
